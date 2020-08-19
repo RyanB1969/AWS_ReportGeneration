@@ -1,0 +1,728 @@
+{
+  "Records": [
+      {
+          "messageId": "dfcadd59-ea16-4d9f-a069-d54ac7b89279",
+          "receiptHandle": "AQEBDpw/Q4Jn4OCxG0YuAY86JDELym1rtT+fBgIuOcFvIjtY2YmbYAA0Yj4yulR1LMfPrXhKqUKBeldXC1Ab8B2ciVcFG+LG22f+aIr94rxcSAarcxtkoXP/UkvCun1OMOTmGdk1oNoqmt86/h0ELEp46oO0f4YD4JwPhh6VVuncwuha+e5TMoZ3kWS0ckYwEsa+eRKHWldTvyr2d49Rx6ax9fp9Cz06sqEmIS7kAf0gbfaq4u3MNk9yiCmATD6Fkynt0hIUUAgejZ1Vnc8uWcOwbcgqcI/WcSKRDXbJ9q1mrsdwFAmyqXtM04BMBMUXqdzR",
+          "body": [
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "10072",
+                  "Machine Ticket#": "10003132",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$20.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:47:37"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "10074",
+                  "Machine Ticket#": "10003130",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$40.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:42:41"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "10074",
+                  "Machine Ticket#": "10003131",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$0.54",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:46:13"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21083",
+                  "Machine Ticket#": "10003037",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$19.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 20:49:02"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21083",
+                  "Machine Ticket#": "10003038",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$22.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 20:53:01"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21083",
+                  "Machine Ticket#": "10003039",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 20:54:49"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21083",
+                  "Machine Ticket#": "10003040",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$13.45",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 20:59:49"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003041",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$64.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 21:00:45"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003042",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 21:03:08"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003043",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$203.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 21:14:57"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003044",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$40.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 21:28:23"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003045",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$13.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 21:41:13"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003046",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 21:42:26"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003050",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$100.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 21:52:09"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21094",
+                  "Machine Ticket#": "10003052",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$110.20",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 22:05:26"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003034",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$14.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 20:17:47"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003035",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$1.60",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 20:35:57"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003036",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$10.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 20:39:00"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003078",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$27.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 20:18:12"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003079",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 21:13:31"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003080",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$216.70",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 22:17:00"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003081",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$16.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 22:27:27"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003082",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$100.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 22:33:31"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003083",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 22:52:37"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003084",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 23:14:05"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003140",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$49.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 19:05:31"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003144",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$80.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 19:13:18"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003148",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$449.40",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 21:25:27"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21103",
+                  "Machine Ticket#": "10003149",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$59.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 21:39:24"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21104",
+                  "Machine Ticket#": "10003134",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$5.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 18:00:48"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21104",
+                  "Machine Ticket#": "10003135",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$26.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 18:02:26"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21104",
+                  "Machine Ticket#": "10003136",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 18:32:39"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21104",
+                  "Machine Ticket#": "10003137",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$49.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 18:39:50"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21105",
+                  "Machine Ticket#": "10003072",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$15.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 18:11:57"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21105",
+                  "Machine Ticket#": "10003075",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$50.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 19:22:40"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21105",
+                  "Machine Ticket#": "10003077",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$76.30",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 19:41:51"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21106",
+                  "Machine Ticket#": "10003068",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$10.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 17:33:06"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21106",
+                  "Machine Ticket#": "10003069",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$20.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 17:38:01"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21106",
+                  "Machine Ticket#": "10003070",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$20.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 18:06:01"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21106",
+                  "Machine Ticket#": "10003071",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$5.50",
+                  "Gaming Date": "2020-07-22",
+                  "Calendar Date/Time": "2020-07-22 18:10:26"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002966",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$1.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:14:16"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002967",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$26.30",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:14:36"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002968",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$20.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:16:52"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002970",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$5.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:23:48"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002974",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$453.00",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:34:11"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002976",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$58.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:34:38"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002978",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$109.00",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:42:02"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002981",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$9.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 20:45:57"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10002984",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$0.25",
+                  "Gaming Date": "2020-07-20",
+                  "Calendar Date/Time": "2020-07-20 21:26:26"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10003027",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$20.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 17:39:55"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10003028",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$40.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 18:06:57"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10003029",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$40.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 18:11:41"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10003030",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$100.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 18:13:07"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "21108",
+                  "Machine Ticket#": "10003031",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$113.40",
+                  "Gaming Date": "2020-07-21",
+                  "Calendar Date/Time": "2020-07-21 19:25:08"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "31270",
+                  "Machine Ticket#": "10003123",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$40.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:26:50"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "31270",
+                  "Machine Ticket#": "10003124",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$100.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:31:02"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "31270",
+                  "Machine Ticket#": "10003126",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$315.66",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:37:30"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "31270",
+                  "Machine Ticket#": "10003128",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$16.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:40:38"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "31270",
+                  "Machine Ticket#": "10003129",
+                  "Transaction": "CWA Transfer from Device ",
+                  "Debit": "$0.00",
+                  "Credit": "$0.32",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:42:00"
+              },
+              {
+                  "Patron Name": "Carlson, James",
+                  "Patron ID": "392328",
+                  "Machine": "31399",
+                  "Machine Ticket#": "10003122",
+                  "Transaction": "CWA Transfer to Device",
+                  "Debit": "$20.00",
+                  "Credit": "$0.00",
+                  "Gaming Date": "2020-07-23",
+                  "Calendar Date/Time": "2020-07-23 17:22:06"
+              }
+          ],
+          "attributes": {
+              "ApproximateReceiveCount": "1",
+              "SentTimestamp": "1595820518970",
+              "SequenceNumber": "18855274126565871616",
+              "MessageGroupId": "PlayerReport",
+              "SenderId": "AROAQXCDNUD2Z7VWLU6FF:PlayerReport-everyMondayFunction-170Q1R9S9FZWN",
+              "MessageDeduplicationId": "41aa662f6b63ee2345ef33277d99eb83",
+              "ApproximateFirstReceiveTimestamp": "1595820519258"
+          },
+          "messageAttributes": {
+              "totalCredits": {
+                  "stringValue": "$2143.62",
+                  "stringListValues": [],
+                  "binaryListValues": [],
+                  "dataType": "String"
+              },
+              "dateRange": {
+                  "stringValue": "7/20/2020 - 7/26/2020",
+                  "stringListValues": [],
+                  "binaryListValues": [],
+                  "dataType": "String"
+              },
+              "patronId": {
+                  "stringValue": "392328",
+                  "stringListValues": [],
+                  "binaryListValues": [],
+                  "dataType": "String"
+              },
+              "totalDue": {
+                  "stringValue": "$-505.62",
+                  "stringListValues": [],
+                  "binaryListValues": [],
+                  "dataType": "String"
+              },
+              "name": {
+                  "stringValue": "Carlson, James",
+                  "stringListValues": [],
+                  "binaryListValues": [],
+                  "dataType": "String"
+              },
+              "statementDate": {
+                  "stringValue": "7/27/2020",
+                  "stringListValues": [],
+                  "binaryListValues": [],
+                  "dataType": "String"
+              },
+              "totalDebits": {
+                  "stringValue": "$1638.00",
+                  "stringListValues": [],
+                  "binaryListValues": [],
+                  "dataType": "String"
+              }
+          },
+          "md5OfMessageAttributes": "726e3ac0adc098615a35065330e0e86e",
+          "md5OfBody": "2efe03d1dd85cd281c1af6c98366a70b",
+          "eventSource": "aws:sqs",
+          "eventSourceARN": "arn:aws:sqs:us-west-1:049533526261:PlayerReport-reportSQSQueue-1TVJNDO3PWDRT.fifo",
+          "awsRegion": "us-west-1"
+      }
+  ]
+}

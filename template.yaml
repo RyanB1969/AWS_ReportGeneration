@@ -1,0 +1,149 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  PlayerReports
+  SAM Template for PlayerReports
+  This creates 2 lambda functions, s3 bucket, sqs queue, and the role for lambda
+Parameters:
+  PDFAPIKEY:
+    Type: String
+    Description: The API KEY from pdfgeneratorapi.com
+  PDFAPISECRET:
+    Type: String
+    Description: The API SECRET from pdfgeneratorapi.com
+  PDFWORKSPACE:
+    Type: String
+    Description: The workspace identifier {email} from pdfgeneratorapi.com
+  PDFTEMPLATEID:
+    Type: String
+    Description: The template id {number} from pdfgeneratorapi.com
+  PDFAPIURL:
+    Type: String
+    Description: The API Endpoint from pdfgeneratorapi.com
+  ERROREMAIL:
+    Type: String
+    Description: An email to be send error notifications
+Globals:
+  Function:
+    Timeout: 30
+
+Resources:
+  lambdaPlayerReportsRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+              - sqs.amazonaws.com
+              - lambda.amazonaws.com
+              - s3.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      ManagedPolicyArns:
+      - arn:aws:iam::aws:policy/AmazonSQSFullAccess
+      - arn:aws:iam::aws:policy/AmazonS3FullAccess
+      - arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
+  sqsEventFunction:
+    Type: AWS::Serverless::Function 
+    Properties:
+      Role: !GetAtt lambdaPlayerReportsRole.Arn
+      CodeUri: sqsEventLambda/
+      Handler: app.lambdaHandler
+      Runtime: nodejs12.x
+      Environment:
+        Variables:
+          "SQS_QUEUE": !Ref reportSQSQueue
+          "SQS_ERROR_QUEUE": !Ref reportErrorSQSQueue
+          "S3_BUCKET": !Ref reportBucket
+          "PDF_KEY" : !Ref PDFAPIKEY
+          "PDF_SECRET": !Ref PDFAPISECRET
+          "PDF_WORKSPACE": !Ref PDFWORKSPACE
+          "PDF_TEMPLATE_ID": !Ref PDFTEMPLATEID
+          "PDF_API_URL": !Ref PDFAPIURL
+      Events:
+        SQSEvent:
+          Type: SQS
+          Properties:
+            Queue: !GetAtt reportSQSQueue.Arn
+            BatchSize: 1
+            Enabled: true
+  sqsErrorEventFunction:
+    Type: AWS::Serverless::Function 
+    Properties:
+      Role: !GetAtt lambdaPlayerReportsRole.Arn
+      CodeUri: sqsErrorEventLambda/
+      Handler: app.lambdaHandler
+      Runtime: nodejs12.x
+      Environment:
+        Variables:
+          "S3_BUCKET": !Ref reportErrorBucket
+          "S3_ERROR_BUCKET": !Ref reportErrorBucket
+      Events:
+        SQSEvent:
+          Type: SQS
+          Properties:
+            Queue: !GetAtt reportErrorSQSQueue.Arn
+            BatchSize: 1
+            Enabled: true
+  everyMondayFunction:
+    Type: AWS::Serverless::Function 
+    Properties:
+      Role: !GetAtt lambdaPlayerReportsRole.Arn
+      CodeUri: everyMondayLambda/
+      Handler: app.lambdaHandler
+      Runtime: nodejs12.x
+      Environment:
+        Variables:
+          "SQS_QUEUE": !Ref reportSQSQueue
+      Events:
+        CWSchedule:
+          Type: Schedule
+          Properties:
+            Schedule: 'rate(1 minute)' 
+  reportSQSQueue:
+    Type: AWS::SQS::Queue
+    Properties: 
+      FifoQueue: true
+  reportErrorSQSQueue:
+    Type: AWS::SQS::Queue
+    Properties: 
+      FifoQueue: true
+  reportBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: BucketOwnerRead
+  reportErrorBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: BucketOwnerRead
+  errorNotification:
+    Type: AWS::SNS::Topic
+    Properties: 
+      DisplayName: PlayerReportsErrorNotification
+      Subscription: 
+        - Endpoint: !Ref ERROREMAIL
+          Protocol: email
+      TopicName: PlayerReportsErrorNotification
+  errorQueueAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      ActionsEnabled: true
+      ComparisonOperator: GreaterThanThreshold
+      AlarmActions: 
+        - !Ref errorNotification
+      AlarmDescription: This alarm triggers when a player report needs to be processed manually.
+      AlarmName: PlayerReportErrorQueue
+      Dimensions: 
+        - Name: ErrorSQSQueue
+          Value: !GetAtt reportErrorSQSQueue.Arn
+      EvaluationPeriods: 1
+      TreatMissingData: notBreaching
+      MetricName: NumberOfMessagesReceived
+      Namespace: AWS/SQS
+      Period: 300
+      Statistic: Sum
+      Threshold: 0
+

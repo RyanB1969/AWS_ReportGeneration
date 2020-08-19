@@ -1,0 +1,21 @@
+{
+  "name": "sqseventfunction",
+  "version": "1.0.0",
+  "description": "this lambda is triggered every sqs message",
+  "main": "app.js",
+  "repository": "",
+  "author": "RB",
+  "license": "",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.27.0",
+    "pdf-generator-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
